@@ -16,11 +16,12 @@ Note that as per the clock specifications, the minutes section is special in a w
 Unit Tests were used to drive the implementation and their criteria were based on edge cases such as testing completed quarter-hours changes, individual rows of hours and minutes aswell as user input parsing. 
 
 -----------------------------------------------------
-#####CODE STYLE:
 
-Slightly modified version of Checkstyle configuration that checks the Google coding conventions from Google Java Style
-see src/main/resources/checkstyle.xml for more info.
+####CODE STYLE:
+Slightly modified version of Checkstyle configuration that checks the Google coding conventions from Google Java Style, see src/main/resources/checkstyle.xml for more info.
+
 -----------------------------------------------------
+
 ####REQUIREMENTS:
 Java 8 (along with its platform requirements) and Maven 3
 
