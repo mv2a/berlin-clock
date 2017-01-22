@@ -53,7 +53,7 @@ public class BerlinUhrClockTest {
         assertNotNull(hoursBottomRowStr);
         assertNotNull(minBottomRowStr);
         assertFalse("14 hours or 14 minutes formats don't seem right",
-                (!hoursBottomRowStr.equals("RRRR") && !minBottomRowStr.equals("YYYY")));
+                (!hoursBottomRowStr.equals("RRRR") && !minBottomRowStr.equals("RRRR")));
 
         //checking for correct hours and minutes bottom row
         bHours.setCurrentHourUnit(21);
@@ -62,8 +62,8 @@ public class BerlinUhrClockTest {
         minBottomRowStr = bMinutes.getBottomRow();
         assertFalse("21 hours format doens't seem right, should be RRRR (containing 4 Rs) but reported as " + hoursBottomRowStr,
                 (hoursBottomRowStr.chars().filter(ch -> ch == 'R').count()) != 4);
-        assertFalse("28 minutes format doens't seem right, should be YYY. (containing 3 Ys) but reported as " + minBottomRowStr,
-                ((minBottomRowStr.chars().filter(ch -> ch == 'Y').count()) != 3));
+        assertFalse("28 minutes format doens't seem right, should be RRR. (containing 3 Ys) but reported as " + minBottomRowStr,
+                ((minBottomRowStr.chars().filter(ch -> ch == 'R').count()) != 3));
 
     }
 
@@ -85,6 +85,6 @@ public class BerlinUhrClockTest {
         assertNotNull(minBottomRowStr);
 
         assertTrue(String.format("%s\n%s", hoursTopRowStr, hoursBottomRowStr).equals("RRR.\nRR.."));
-        assertTrue(String.format("%s\n%s", minTopRowStr, minBottomRowStr).equals("YYRYYRYYRY.\nYYYY"));
+        assertTrue(String.format("%s\n%s", minTopRowStr, minBottomRowStr).equals("YYRYYRYYRY.\nRRRR"));
     }
 }

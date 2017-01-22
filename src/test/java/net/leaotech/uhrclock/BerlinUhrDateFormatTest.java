@@ -23,7 +23,7 @@ public class BerlinUhrDateFormatTest {
                 now.getSecond(), setTheoryClock.format());
 		System.out.println("Performing simple checks with the following times: 9:54:50  and 16:18:33");
 		assertEquals("Unexpected result with the time 16:18:33",
-                setTheoryClock.format(16, 18, 33), "  .\nRRR.\nR...\nYYR........\nYYY.");
+                setTheoryClock.format(16, 18, 33), "  .\nRRR.\nR...\nYYR........\nRRR.");
 	}
 
     @Test(expected=NumberFormatException.class)

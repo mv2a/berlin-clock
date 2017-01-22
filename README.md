@@ -1,7 +1,21 @@
 #Set Theory Clock
 https://en.wikipedia.org/wiki/Mengenlehreuhr in Java
 
-Displays on the command line, in text the current time in the set theory clock, with ‘.’ representing an unlit light, R representing a lit red light, and Y representing a lit yellow light.
+Displays on the command line, in text the current time in the set theory clock, with ‘.’ representing an unlit light, R representing a lit red light, and Y representing a lit yellow light, i.e:
+
+For a given time: 09:54 and 50 seconds, the representation will be:<br />
+
+&nbsp;&nbsp;Y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(lit yellow for 50 seconds which is an even number)<br />
+R...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1 R in the first row representing 5 hours)<br /> 
+RRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4 Rs in the second row, representing another 4 hours)<br /> 
+---- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(splits the first two rows (hours) to the bottom two ones (minutes))<br />
+YYRYYRYYRY. &nbsp;&nbsp;(3 quarters represented by 3Rs + another 1Y (5min) = 50 Minutes)<br />
+RRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4 Minutes)<br />
+<br />
+
+
+See the "Compile, Run & Test" section below for instructions on how to run.
+
 
 -----------------------------------------------------
 ####DESIGN:
