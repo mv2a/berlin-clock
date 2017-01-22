@@ -7,9 +7,9 @@ For a given time: 09:54 and 50 seconds, the representation will be:<br />
 
 &nbsp;&nbsp;Y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(lit yellow for 50 seconds which is an even number)<br />
 R...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1 R in the first row representing 5 hours)<br /> 
-RRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4 Rs in the second row, representing another 4 hours)<br /> 
+RRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4 Rs in the second row, representing another 4 hours)<br /> 
 ---- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(splits the first two rows (hours) to the bottom two ones (minutes))<br />
-YYRYYRYYRY. &nbsp;&nbsp;(3 quarters represented by 3Rs + another 1Y (5min) = 50 Minutes)<br />
+YYRYYRYYRY. &nbsp;(3 quarters represented by 3Rs + another 1Y (5min) = 50 Minutes)<br />
 RRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4 Minutes)<br />
 <br />
 
@@ -41,7 +41,8 @@ Java 8 (along with its platform requirements) and Maven 3
 
 -----------------------------------------------------
 ####Compile, Run & Test:
-Standard maven package as per the specs, it will run the tests as part of the build and produce an executable jar. 
+Standard maven package as per the specs, it will run the tests as part of the build and produce an executable jar. <br />
+*mvn clean package*  will build, run the tests and produce an executable jar under project-location/target <br />
 Finally, run the jar with java -jar set-theory-clock-0.0.1-SNAPSHOT.jar for the available commands.
 
 -----------------------------------------------------
