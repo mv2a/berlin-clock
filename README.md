@@ -19,8 +19,7 @@ Unit Tests were used to drive the implementation and their criteria were based o
 #####CODE STYLE:
 
 Slightly modified version of Checkstyle configuration that checks the Google coding conventions from Google Java Style
-https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml
-https://google.github.io/styleguide/javaguide.html
+see src/main/resources/checkstyle.xml for more info.
 -----------------------------------------------------
 ####REQUIREMENTS:
 Java 8 (along with its platform requirements) and Maven 3
