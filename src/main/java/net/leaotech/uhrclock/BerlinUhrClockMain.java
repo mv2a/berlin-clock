@@ -30,7 +30,7 @@ public class BerlinUhrClockMain {
                 output = setTheoryClock.format(hours, minutes, seconds);
             }
         } else
-            output =  "Usage:\n now [displays the local time as the Berlin Uhr Theory clock format] \n"
+            output = "Usage:\n now [displays the local time as the Berlin Uhr Theory clock format] \n"
                     + " HH:mm:ss [displays the specified time as the Berlin Uhr clock format, HH:0-23, mm:standard "
                     + "minutes, ss:standard seconds]";
         return output;

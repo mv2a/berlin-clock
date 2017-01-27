@@ -1,7 +1,7 @@
 #Set Theory Clock
 https://en.wikipedia.org/wiki/Mengenlehreuhr in Java
 
-Displays on the command line, in text the current time in the set theory clock, with ‘.’ representing an unlit light, R representing a lit red light, and Y representing a lit yellow light, i.e:
+Displays on the command line, in text the current time in the set theory clock format, with ‘.’ representing an unlit light, R representing a lit red light, and Y representing a lit yellow light, i.e:
 
 For a given time: 09:54 and 50 seconds, the representation will be:<br />
 
